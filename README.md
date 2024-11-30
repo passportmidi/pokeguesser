@@ -1,0 +1,1 @@
+I made this app to teach myself Flask and refresh my Python and REST API skills, so some of my own notes are in the comments and it's not very usable right now. Putting the repo here for posterity, I'll probably make a post on my blog about it later once it's functional enough.
