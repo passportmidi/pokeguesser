@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>PokéGuesser</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Which Pokémon is this?</h1>
-    <img src={{ pokeimg }} alt='Swinub' />
-</body>
+    <img src={{ pokeimg }} />
+    <form method="post">
+      <p>
+        <label for="guess">Enter your guess here:</label>
+        <input type="text" name="guess" id="guess" required />
+      </p>
+      <p class="button"><button type="submit">Submit</button></p>
+    </form>
+  </body>
 </html>
